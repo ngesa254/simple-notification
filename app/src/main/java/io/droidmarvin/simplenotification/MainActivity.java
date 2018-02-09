@@ -36,12 +36,12 @@ public class MainActivity extends AppCompatActivity {
                 mBuilder.setAutoCancel(false);
                 mBuilder.setContentTitle("Simple Notification");
                 mBuilder.setTicker("ticker text here");
-                mBuilder.setContentText("Notification sub title");
-                mBuilder.setSmallIcon(R.drawable.ic_launcher_background);
+                mBuilder.setContentText("Tech x Notification");
+                mBuilder.setSmallIcon(R.drawable.techx);
                 mBuilder.setContentIntent(mPendingIntent);
                 mBuilder.setOngoing(true);
                 //API level 16
-                mBuilder.setSubText("This is short description of android app notification");
+                mBuilder.setSubText("We are holding an xMeeting this Monday. Purpose to attend!");
                 mBuilder.setNumber(150);
                 mBuilder.build();
                 mNotification = mBuilder.getNotification();
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initialise() {
-        buttonNotificationShow = (Button) findViewById(R.id.notification_show_button);
-        buttonNotificationClear = (Button) findViewById(R.id.notification_clear_button);
+        buttonNotificationShow = findViewById(R.id.notification_show_button);
+        buttonNotificationClear = findViewById(R.id.notification_clear_button);
     }
 }
