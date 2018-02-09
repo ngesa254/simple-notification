@@ -6,13 +6,9 @@ A notification is a message that you can display to the users outside of your an
 Images
 ------
 
-<img src="Images/pa.png" alt="phone image" width="200px" />
+<img src="Images/na.png" alt="phone image" width="200px" />
 
-<img src="Images/pb.png" alt="phone image" width="200px" />
-
-<img src="Images/pc.png" alt="phone image" width="200px" />
-
-<img src="Images/pd.png" alt="phone image" width="200px" />
+<img src="Images/nb.png" alt="phone image" width="200px" />
 
 Setup Requirements
 ----------------
