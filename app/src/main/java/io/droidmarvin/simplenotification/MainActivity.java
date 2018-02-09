@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 Notification.Builder mBuilder = new Notification.Builder(getApplicationContext());
 
                 mBuilder.setAutoCancel(false);
-                mBuilder.setContentTitle("Simple Notification");
+                mBuilder.setContentTitle("xSimple Notification");
                 mBuilder.setTicker("ticker text here");
                 mBuilder.setContentText("Tech x Notification");
                 mBuilder.setSmallIcon(R.drawable.techx);
