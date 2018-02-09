@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 mBuilder.setSmallIcon(R.drawable.techx);
                 mBuilder.setContentIntent(mPendingIntent);
                 mBuilder.setOngoing(true);
+
                 //API level 16
                 mBuilder.setSubText("We are holding an xMeeting this Monday. Purpose to attend!");
                 mBuilder.setNumber(150);

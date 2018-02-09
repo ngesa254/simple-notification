@@ -15,11 +15,13 @@ tools:context="io.droidmarvin.simplenotification.MainActivity">
     android:id="@+id/notification_show_button"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@color/pink"
     android:text="Show App Notification" />
 
 <Button
     android:id="@+id/notification_clear_button"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@color/yello"
     android:text="Clear App Notification" />
 </LinearLayout>
