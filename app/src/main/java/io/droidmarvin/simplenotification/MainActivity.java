@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
             @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent("com.viralandroid.androidpushnotificationtutorial");
+                Intent intent = new Intent("io.droidmarvin.simplenotification");
                 mPendingIntent = PendingIntent.getActivity(getApplicationContext(), 1, intent, 0);
                 Notification.Builder mBuilder = new Notification.Builder(getApplicationContext());
 
                 mBuilder.setAutoCancel(false);
-                mBuilder.setContentTitle("Android App Notification");
+                mBuilder.setContentTitle("Simple Notification");
                 mBuilder.setTicker("ticker text here");
                 mBuilder.setContentText("Notification sub title");
                 mBuilder.setSmallIcon(R.drawable.ic_launcher_background);
